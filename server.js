@@ -20,7 +20,7 @@ app.get("/", (req, res)=>{
 })
 
 app.get("/test1", (req, res)=>{
-    
+    res.sendFile(path.join(__dirname, "/views/test1.html"));
 })
 
 app.listen(port, onStart);
