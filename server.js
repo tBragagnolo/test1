@@ -22,3 +22,5 @@ app.get("/", (req, res)=>{
 app.get("/test1", (req, res)=>{
     
 })
+
+app.listen(port, onStart);
