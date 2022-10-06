@@ -10,7 +10,7 @@ function onStart(){
 
 app.get("/", (req, res)=>{
     var mes = "";
-    mes += "<h2>Declaration</h2><";
+    mes += "<h2>Declaration</h2>";
     mes += "<p>I declare that this test is my own work in accordance with Seneca Academic Policy.</p>";
     mes += "<p>No part of this test has been copied manually or electronically from any other source</p>";
     mes += "<p>Name: Tom Bragagnolo</p>";
